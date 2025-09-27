@@ -1,6 +1,6 @@
 #main-container {
     display: flex;
-    height: 80vh;
+    height: 70vh;
 }
 
 @font-face {
@@ -37,7 +37,7 @@
     top: 10%;
     height: 150px;
     width: 100%;
-    background: rgba(0,0,0,0.1);
+    background: rgba(193, 193, 193, 0.1);
 }
 
 .img-2-text {
@@ -55,6 +55,7 @@
     flex: 1;
 }
 
+
 label, input {
     display: block;
 }
@@ -66,10 +67,44 @@ label, input {
 #user-details {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
 }
 
 #user-details > div {
     display: flex;
     gap: 60px;
+}
+
+#create-acc {
+    padding: 12px 48px;
+    color: white;
+    font-weight: 900;
+    background: gray;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0 2px;
+}
+
+#header, #user-form, #footer {
+    padding: 0 40px;
+}
+
+#header {
+    display: flex;
+    align-items: flex-end;
+}
+
+input {
+    height: 20px;
+    width: 200px;
+}
+
+.header-font {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 800;
 }
